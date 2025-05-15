@@ -29,5 +29,7 @@ public:
         cin >> nilai;
 
         Node *newNode = new Node();
+
+        newNode->noMhs = nim;
     }
 }
